@@ -1,3 +1,35 @@
+* {
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url(./resources/header_background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+li.header {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150px;
+}
+
+li.header:hover {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
 h1 {
   color: red;
 }
