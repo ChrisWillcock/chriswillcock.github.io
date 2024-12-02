@@ -5,6 +5,7 @@
 header {
   background-image: url(./resources/header_background.jpg);
   background-repeat: no-repeat;
+  height: 18%;
   width: 100%;
   background-size: 100% 100%;
   text-align: center;
@@ -15,6 +16,7 @@ ul {
   list-style-type: none;
   padding: 10px;
   display: inline-block;
+  line-height: 20px;
 }
 
 li.header {
